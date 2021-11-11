@@ -1,0 +1,36 @@
+
+Created a pyhton environment called covid and if you want to do the same follow these steps :-
+
+Step 1.	Open your terminal.
+
+		Go to the folder you want to create your Virtual environment.
+
+Step 2. Create a new virtual environment
+
+		write this command "python -m venv covid"
+
+Step 3. Activate your virtual environment
+
+		source covid/bin/activate # Linux
+		.\covid\Scripts\activate # Windows 
+
+Step 4. Install dependencies and add virtual environment to the Python Kernel
+		
+		python -m pip install --upgrade pip
+		pip install ipykernel
+		python -m ipykernel install --user --name=covid
+		
+Step 5. Install all the libraries that would be needed
+		
+		!pip install wordcloud
+		!pip install nltk
+		!pip install spicy
+		!pip install seaborn
+		!pip install numpy
+		!pip install pandas
+		!pip install sklearn
+		!pip install tensorflow
+		!pip install sent2vec
+    		!pip install sentence-transformers
+    		!pip install gensim
+		!pip install torch

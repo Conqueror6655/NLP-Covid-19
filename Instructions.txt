@@ -1,0 +1,23 @@
+Please follow these instructions to successfully run my ipynb notebooks or py files:
+
+1) The the first file covid-dataset.ipynb or py was created on kaggle in order to get few thousand articles from whole dataset.
+	- So it will not run unless you run on kaggle (due to input path errors), the output of this notebook was a .csv file 
+
+	- This "covid_data.csv"  is the output filename which is present in Data folder.
+
+	- Link to that kernel "https://www.kaggle.com/conqueror6655/covid-dataset"
+
+2) The second file Covid-19 Sentence similarity.ipynb or py was created on jupyter notebook, this is the heart of the project since in this
+   file we do EDA, preprocessing, modeling and loading those models.
+
+	- First thing is to setup the folder in which you run this notebook
+
+	- Download Saved_models zip from the Google drive link provided in the report
+	
+	- Unzip that file and put Saved_models folder into the current working directory and if you want check the Repository.png 
+
+3) In case you want to run .py file then please copy paste them in their parent folder(a1838670_code) since all path will be wrong if you keep them in "Py file" folder
+
+Please see the repository.png (It shows which all files/folders needs to be present in order for 2nd notebook to run )
+
+I Recommend using ipynb for seeing the working and py files for checking on turnitin.
